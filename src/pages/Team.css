@@ -1,0 +1,13 @@
+.team-page {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.mb-5 {
+    margin-bottom: 4rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
