@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link to="/" className="brand">
                     <img src={logo} alt="WCE Logo" className="brand-logo" />
                     <div className="brand-text">
-                        <h1>Watsys</h1>
+                        <h1 style={{ marginLeft: "24px" }}>WATSYS</h1>
                         <span>Consulting Engineers</span>
                     </div>
                 </Link>

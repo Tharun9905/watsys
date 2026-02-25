@@ -14,7 +14,7 @@ const Footer = () => {
                     <Link to="/" className="footer-brand">
                         <img src={logo} style={{ width: "50px", height: "auto" }} alt="WCE Logo" className="brand-logo" />
                         <div className="brand-text">
-                            <h2>Watsys</h2>
+                            <h2>WATSYS</h2>
                             <span>Consulting Engineers Pvt. Ltd.</span>
                         </div>
                     </Link>
@@ -66,7 +66,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
                 <div className="container bottom-container">
-                    <p>&copy; {currentYear} Watsys Consulting Engineers Private Limited. All Rights Reserved.</p>
+                    <p>&copy; {currentYear} WATSYS Consulting Engineers Private Limited. All Rights Reserved.</p>
                     <div className="footer-legal">
                         <Link to="#">Privacy Policy</Link>
                         <Link to="#">Terms of Service</Link>

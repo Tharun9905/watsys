@@ -40,6 +40,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   line-height: 1.6;
+  text-align: justify;
   overflow-x: hidden;
 }
 

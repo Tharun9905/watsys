@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import CustomerSurvey from './pages/CustomerSurvey';
 import WaterBubbles from './components/WaterBubbles';
 import ScrollToTop from './components/ScrollToTop';
+import ChatbotWidget from './components/ChatbotWidget';
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                     </Routes>
                 </main>
                 <Footer />
+                <ChatbotWidget />
             </div>
         </Router>
     );

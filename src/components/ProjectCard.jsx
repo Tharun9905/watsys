@@ -14,7 +14,9 @@ const ProjectCard = ({ project }) => {
             </div>
             <div className="project-content">
                 <h3 className="project-title">{project.name}</h3>
-                <p className="project-desc">{project.description}</p>
+                {project.description !== project.name && (
+                    <p className="project-desc">{project.description}</p>
+                )}
 
                 <div className="project-meta">
                     <div className="meta-item">

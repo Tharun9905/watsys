@@ -18,8 +18,8 @@ const Home = () => {
                 <div className="container hero-container">
                     <div className="hero-content">
                         <h1 className="hero-title">
-                            Engineering Sustainable <br />
-                            <span className="text-highlight">Water Infrastructure</span> Solutions
+                            Engineering Sustainable
+                            <span className="text-highlight"> Water Infrastructure</span> Solutions
                         </h1>
                         <p className="hero-subtitle">
                             Specialized consultancy in Water Supply Systems, Underground Drainage, and Non-Revenue Water (NRW) Reduction for a sustainable future.
@@ -43,7 +43,7 @@ const Home = () => {
                         <div className="overview-text">
                             <h2 className="section-title text-left">Trusted Infrastructure Partners</h2>
                             <p className="lead-text">
-                                Watsys Consulting Engineers Private Limited provides holistic engineering solutions tailored for complex urban and rural water networks.
+                                WATSYS Consulting Engineers Private Limited provides holistic engineering solutions tailored for complex urban and rural water networks.
                             </p>
                             <p>
                                 Founded on the principles of engineering excellence and data-driven design, our multi-disciplinary team delivers robust Detailed Project Reports (DPRs), hydraulic modeling, and GIS-integrated surveys. We bridge the gap between concept and fully operational infrastructure, partnering seamlessly with government bodies, municipalities, and smart city corporations.
@@ -97,7 +97,7 @@ const Home = () => {
             {/* Why Choose Us Section */}
             <section className="section why-us-section">
                 <div className="container">
-                    <h2 className="section-title">Why Partner With Watsys</h2>
+                    <h2 className="section-title">Why Partner With WATSYS</h2>
                     <div className="why-us-grid">
                         <div className="reason-item">
                             <Award className="reason-icon" size={40} />

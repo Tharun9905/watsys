@@ -8,7 +8,7 @@ const Contact = () => {
             <section className="page-header">
                 <div className="container">
                     <AnimatedSection animation="slide-up">
-                        <h1 className="page-title text-gradient">Contact Watsys</h1>
+                        <h1 className="page-title text-gradient">Contact WATSYS</h1>
                         <p className="page-subtitle">Start a conversation with our infrastructure planning experts.</p>
                     </AnimatedSection>
                 </div>
@@ -30,7 +30,15 @@ const Contact = () => {
                                         <MapPin size={32} />
                                     </div>
                                     <h3>Our Offices</h3>
-                                    <p><strong>Bangalore (HQ):</strong> 1232, 15th Main Road, BTM 2nd Stage, Bangalore - 560076<br /><br /><strong>Registered:</strong> #8, 3rd Cross, Garudachar Layout, Vijayanagar 3rd Stage, Mysuru - 570017</p>
+                                    <p>
+                                        <strong>Bangalore (HQ):</strong><br />
+                                        <a href="https://maps.app.goo.gl/search/1232,+15th+Main+Road,+BTM+2nd+Stage,+Bangalore,+Karnataka,+India+-+560076" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            1232, 15th Main Road, BTM 2nd Stage, Bangalore - 560076
+                                        </a>
+                                        <br /><br />
+                                        <strong>Registered:</strong><br />
+                                        #8, 3rd Cross, Garudachar Layout, Vijayanagar 3rd Stage, Mysuru - 570017
+                                    </p>
                                 </AnimatedSection>
 
                                 <AnimatedSection animation="slide-up" delay={200} className="info-card hover-float">
@@ -38,7 +46,12 @@ const Contact = () => {
                                         <Phone size={32} />
                                     </div>
                                     <h3>Direct Contact</h3>
-                                    <p><strong>Shrivatsa Thilakprasad</strong><br />Director<br />+91 9164 00 4600</p>
+                                    <p>
+                                        <strong>Shrivatsa Thilakprasad</strong><br />Director<br />
+                                        <a href="tel:+919164004600" style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>+91-80-3597-9407</a>
+                                        <br /><br />
+
+                                    </p>
                                 </AnimatedSection>
 
                                 <AnimatedSection animation="slide-up" delay={300} className="info-card hover-float">
@@ -46,9 +59,29 @@ const Contact = () => {
                                         <Mail size={32} />
                                     </div>
                                     <h3>Email & Web</h3>
-                                    <p>info@watsysconsulting.com<br />shrivatsa.shrivatsa@gmail.com<br /></p>
+                                    <p>
+                                        <a href="mailto:info@watsysconsulting.com" style={{ textDecoration: 'none', color: 'inherit' }}>info@watsysconsulting.com</a><br />
+                                        <a href="mailto:shrivatsa@watsysconsulting.com" style={{ textDecoration: 'none', color: 'inherit' }}>shrivatsa@watsysconsulting.com</a>
+                                    </p>
                                 </AnimatedSection>
                             </div>
+
+                            {/* Google Maps Embed */}
+                            <AnimatedSection animation="fade-in" delay={400} className="map-container">
+                                <div style={{ marginTop: '8rem', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.750942095692!2d77.60623321482161!3d12.915013090888258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1500445d5a89%3A0x6b4bb55c3c0de4cb!2s15th%20Main%20Rd%2C%202nd%20Stage%2C%20BTM%20Layout%2C%20Bengaluru%2C%20Karnataka%20560076!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                                        width="100%"
+                                        height="450"
+                                        style={{ border: 0, display: 'block' }}
+                                        allowFullScreen=""
+                                        loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                        title="WATSYS Bangalore Office Map"
+                                    ></iframe>
+                                </div>
+                            </AnimatedSection>
+
                         </AnimatedSection>
                     </div>
                 </div>
