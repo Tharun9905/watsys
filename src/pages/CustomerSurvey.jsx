@@ -1,12 +1,22 @@
 import AnimatedSection from '../components/AnimatedSection';
-import realSurvey1 from '../assets/real-survey-1.jpeg';
-import realSurvey2 from '../assets/real-survey-2.jpeg';
-import realSurvey3 from '../assets/real-survey-3.jpeg';
-import realSurvey4 from '../assets/real-survey-4.jpeg';
-import realTopo1 from '../assets/real-topo-1.jpeg';
-import realTopo2 from '../assets/real-topo-2.jpeg';
-import realTopo3 from '../assets/real-topo-3.jpeg';
-import realTopo4 from '../assets/real-topo-4.jpeg';
+import realSurvey1 from '../assets/customer-survey-generated-1.png';
+import realSurvey2 from '../assets/customer-survey-generated-2.png';
+import realSurvey3 from '../assets/customer-survey-generated-3.png';
+import realSurvey4 from '../assets/customer-survey-generated-4.png';
+import realTopo1 from '../assets/new-topo-1.jpeg';
+import realTopo2 from '../assets/new-topo-2.jpeg';
+import realTopo3 from '../assets/new-topo-3.jpeg';
+import realTopo4 from '../assets/new-topo-4.jpeg';
+import realTopo5 from '../assets/new-topo-5.jpeg';
+import realTopo6 from '../assets/new-topo-6.jpeg';
+import realTopo7 from '../assets/new-topo-7.jpeg';
+import realTopo8 from '../assets/new-topo-8.jpeg';
+import realTopo9 from '../assets/new-topo-9.jpeg';
+import realTopo10 from '../assets/new-topo-10.jpeg';
+import realTopo11 from '../assets/new-topo-11.jpeg';
+import realTopo12 from '../assets/new-topo-12.jpeg';
+import realTopo13 from '../assets/new-topo-13.jpeg';
+import realTopo14 from '../assets/new-topo-14.jpeg';
 import './CustomerSurvey.css';
 
 const CustomerSurvey = () => {
@@ -54,10 +64,9 @@ const CustomerSurvey = () => {
 
                     {/* 4 Column Grid for Topographical Survey Images */}
                     <div className="customer-survey-images topo-survey-images" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
-                        <img src={realTopo1} alt="Topographical Survey Location 1" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={realTopo2} alt="Topographical Survey Location 2" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={realTopo3} alt="Topographical Survey Location 3" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={realTopo4} alt="Topographical Survey Location 4" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        {[realTopo1, realTopo2, realTopo3, realTopo4, realTopo5, realTopo6, realTopo7, realTopo8, realTopo9, realTopo10, realTopo11, realTopo12, realTopo13, realTopo14].map((src, idx) => (
+                            <img key={idx} src={src} alt={`Topographical Survey Location ${idx + 1}`} style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        ))}
                     </div>
                 </div>
             </section>

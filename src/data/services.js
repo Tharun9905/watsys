@@ -4,6 +4,9 @@ import imgNRW from '../assets/NRW .png';
 import imgHydraulic from '../assets/HYDRAULIC.png';
 import imgGIS from '../assets/GIS.png';
 import imgDPR from '../assets/DPR.png';
+import realPhoto1 from '../assets/new-project-photo-1.jpeg';
+import realPhoto2 from '../assets/new-project-photo-2.jpeg';
+import realPhoto3 from '../assets/new-project-photo-3.jpeg';
 
 export const services = [
     {
@@ -13,6 +16,7 @@ export const services = [
         description: "We provide comprehensive engineering services for urban and rural water supply schemes. From source sustainability assessments to the design of complex transmission and distribution networks, our solutions ensure reliable and equitable pure water delivery.",
         icon: "Droplets",
         image: imgWaterSupply,
+        realImage: realPhoto1,
         benefits: ["Optimized network lifecycle", "Reduced pumping costs", "Equitable pressure distribution"],
         process: ["System Assessment", "Hydraulic Modeling", "Network Design", "Continuous Supply Planning (24x7)"]
     },
@@ -23,6 +27,7 @@ export const services = [
         description: "Our UGD designs prioritize gravity-flow optimization and safe conveyance of wastewater. We specialize in designing deep sewer networks, lift stations, and trunk mains conforming to CPHEEO manual standards.",
         icon: "Waves",
         image: imgUGD,
+        realImage: realPhoto2,
         benefits: ["Prevention of water logging", "Improved urban sanitation", "Cost-effective construction depths"],
         process: ["Topographical Analysis", "Sewer Network Design", "Pumping Station Design", "Wastewater Infrastructure Planning"]
     },
@@ -33,6 +38,7 @@ export const services = [
         description: "Non-Revenue Water (NRW) or Unaccounted For Water (UFW) is a critical challenge. We design strategies to isolate networks into District Metered Areas (DMAs), conduct water balances, and pinpoint physical leaks and commercial losses.",
         icon: "Activity",
         image: imgNRW,
+        realImage: realPhoto3,
         benefits: ["Increased utility revenue", "Water conservation", "Deferred capital expenditure"],
         process: ["Water Loss Analysis", "Leak Detection Planning", "DMA Design", "Metering Strategy"]
     },

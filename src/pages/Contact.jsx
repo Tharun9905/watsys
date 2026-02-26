@@ -48,7 +48,7 @@ const Contact = () => {
                                     <h3>Direct Contact</h3>
                                     <p>
                                         <strong>Shrivatsa Thilakprasad</strong><br />Director<br />
-                                        <a href="tel:+919164004600" style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>+91-80-3597-9407</a>
+                                        <a href="tel:+918035979407" style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>+91-80-3597-9407</a>
                                         <br /><br />
 
                                     </p>
