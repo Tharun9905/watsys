@@ -164,3 +164,25 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Unified Survey Image Grid */
+.survey-image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.survey-image-item {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-speed);
+}
+
+.survey-image-item:hover {
+    transform: scale(1.03);
+}

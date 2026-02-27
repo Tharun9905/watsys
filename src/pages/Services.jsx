@@ -114,13 +114,13 @@ const Services = () => {
                         </p>
                     </AnimatedSection>
 
-                    <div className="customer-survey-images" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
-                        <img src={customerSurveyField} alt="Customer Survey Field" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={gisNetworkMap} alt="GIS Network Map" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={customerSurveyReal1} alt="Customer Survey Real Project 1" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={customerSurveyReal2} alt="Customer Survey Real Project 2" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={customerSurveyReal3} alt="Customer Survey Real Project 3" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
-                        <img src={customerSurveyReal4} alt="Customer Survey Real Project 4" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                    <div className="survey-image-grid">
+                        <img src={customerSurveyField} alt="Customer Survey Field" className="survey-image-item" />
+                        <img src={gisNetworkMap} alt="GIS Network Map" className="survey-image-item" />
+                        <img src={customerSurveyReal1} alt="Customer Survey Real Project 1" className="survey-image-item" />
+                        <img src={customerSurveyReal2} alt="Customer Survey Real Project 2" className="survey-image-item" />
+                        <img src={customerSurveyReal3} alt="Customer Survey Real Project 3" className="survey-image-item" />
+                        <img src={customerSurveyReal4} alt="Customer Survey Real Project 4" className="survey-image-item" />
                     </div>
                 </div>
             </section>
@@ -135,9 +135,9 @@ const Services = () => {
                     </AnimatedSection>
 
                     {/* Grid for Topographical Survey Images */}
-                    <div className="customer-survey-images topo-survey-images" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
-                        {[realTopo1, realTopo2, realTopo3, realTopo4, realTopo5, realTopo6, realTopo7, realTopo8, realTopo9, realTopo10, realTopo11, realTopo12, realTopo13, realTopo14].map((src, idx) => (
-                            <img key={idx} src={src} alt={`Topographical Survey Location ${idx + 1}`} style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                    <div className="survey-image-grid">
+                        {[realTopo1, realTopo2, realTopo3, realTopo4, realTopo5, realTopo6, realTopo8, realTopo9, realTopo10, realTopo11, realTopo12, realTopo13, realTopo14].map((src, idx) => (
+                            <img key={idx} src={src} alt={`Topographical Survey Location ${idx + 1}`} className="survey-image-item" />
                         ))}
                     </div>
                 </div>

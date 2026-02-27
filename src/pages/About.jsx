@@ -1,6 +1,8 @@
 import { Shield, Target, Lightbulb, TrendingUp } from 'lucide-react';
 import AnimatedSection from '../components/AnimatedSection';
 import './About.css';
+import waterTreatmentPlantImg from '../assets/water-treatment-plant.jpeg';
+import cleanWaterAccessImg from '../assets/new-project-photo-4.jpeg';
 
 const About = () => {
     return (
@@ -36,10 +38,10 @@ const About = () => {
 
                     <div className="intro-images-wrapper" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                         <div className="image-card" style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(11, 61, 145, 0.15)' }}>
-                            <img src="/src/assets/water-treatment-plant.jpeg" alt="Water Treatment Plant" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                            <img src={waterTreatmentPlantImg} alt="Water Treatment Plant" style={{ width: '100%', height: 'auto', display: 'block' }} />
                         </div>
                         <div className="image-card" style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(11, 61, 145, 0.15)' }}>
-                            <img src="/src/assets/new-project-photo-4.jpeg" alt="Providing Clean Water Access" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                            <img src={cleanWaterAccessImg} alt="Providing Clean Water Access" style={{ width: '100%', height: 'auto', display: 'block' }} />
                         </div>
                         <div className="image-card" style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(11, 61, 145, 0.15)' }}>
                             <img src="/about-team.png" alt="WATSYS Engineering Team Collaboration" style={{ width: '100%', height: 'auto', display: 'block' }} />
