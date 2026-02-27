@@ -122,8 +122,15 @@ const Footer = () => {
                 <div className="container bottom-container">
 
                     <p>
-                        &copy; {currentYear} WATSYS Consulting Engineers Private Limited.
-                        All Rights Reserved.
+                        &copy; {currentYear} WATSYS Consulting Engineers Private Limited.{' '}
+                        <a
+                            href="https://autoflowmation.ai"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="rights-link"
+                        >
+                            All Rights Reserved.
+                        </a>
                     </p>
 
                     <div className="footer-legal">
