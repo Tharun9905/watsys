@@ -23,7 +23,7 @@
 }
 
 .footer-logo {
-    height: 2.5rem;
+    height: 2.8rem;
     width: auto;
     object-fit: contain;
 }
@@ -37,9 +37,7 @@
 
 .footer-brand-name {
     font-size: 1.35rem;
-    /* Same size */
     font-weight: 700;
-    /* Bold */
     letter-spacing: 0.5px;
 }
 
@@ -141,6 +139,21 @@
     font-size: 0.85rem;
 }
 
+/* NEW: Bold All Rights Reserved */
+.rights-link {
+    color: #88aadd;
+    font-weight: 700;
+    /* Bold */
+    text-decoration: none;
+    transition: color var(--transition-speed);
+}
+
+.rights-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Legal Links */
 .footer-legal {
     display: flex;
     gap: 1.5rem;
